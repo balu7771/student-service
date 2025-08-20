@@ -17,7 +17,7 @@ public class StudentService {
         return studentRepository.findAll();
     }
 
-    public Object createStudent(Student student) {
+    public Student createStudent(Student student) {
         return studentRepository.save(student);
     }
 }
